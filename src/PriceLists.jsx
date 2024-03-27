@@ -32,7 +32,6 @@ const PriceLists = () => {
             priceLi1: "Professional from the experienced",
             priceLi2: " Pre-made template",
             priceLi3: "USer & Mobile Friendly"
-
         },
     ]
     return (
@@ -42,7 +41,7 @@ const PriceLists = () => {
                 <p className='font-bold text-2xl'>Pricing Plan</p>
             </div>
             <div className='flex justify-center items-center py-10'>
-                <button className='bg-sky-400 px-6 py-1 rounded-sm rounded-l-full text-white border-r-1 hover:bg-sky-700'>Weekly</button>
+                <button className='bg-sky-400 px-6 py-1 rounded-sm rounded-l-full text-white border-r-1 hover:bg-sky-700 active-plan'>Weekly</button>
                 <button className='bg-sky-400 hover:bg-sky-700 px-6 py-1 rounded-sm rounded-r-full text-white border-l-2'>Monthly</button>
             </div>
             <div className='flex justify-center items-center flex-wrap gap-2  '>
