@@ -1,0 +1,32 @@
+.pricingCard:hover {
+    background-color: #002FCF;
+    color: white;
+    border: none;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricingCard:hover h2 {
+    color: white;
+}
+
+.pricingCard:hover p {
+    color: white;
+}
+
+.pricingCard:hover h3 {
+    color: white;
+}
+
+.pricingCard:hover button {
+    color: black;
+    background-color: white;
+}
+
+.pricingCard:hover div {
+    background-color: #002FCF;
+    color: white;
+    padding: none;
+}
